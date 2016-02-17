@@ -7,6 +7,7 @@ var logger = require('./utils/log');
 
 app.get('/', logger, function(req, res) {
   res.send('hello world');
+  console.log('damn');
 });
 
 app.get('/stuff', function(req, res) {
