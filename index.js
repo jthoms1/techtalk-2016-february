@@ -5,7 +5,7 @@ var app = express();
 var port = 8080;
 
 /*
-var logger = require('./log.js');
+app.use(function(req, res, next) {
   console.log(`${req.method} ${req.originalUrl}`);
   next();
 });
