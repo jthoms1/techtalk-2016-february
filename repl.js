@@ -14,6 +14,8 @@ var replServer = repl.start({
 
 // attach my modules to the repl context
 replServer.context.colors = colors;
+
+
 /*
 replServer.context.logTodayInMulti = function() {
   var today = new Date();

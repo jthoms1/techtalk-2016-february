@@ -119,10 +119,19 @@
         <section>
           <h2>What makes it interesting?</h2>
           <ul>
-            <li class="fragment fade-in">You already know JavaScript</li>
             <li class="fragment fade-in">The Community</li>
+            <li class="fragment fade-in">You already know JavaScript</li>
             <li class="fragment fade-in">Tooling</li>
             <li class="fragment fade-in">Sharing code is core</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>The Community</h2>
+          <ul>
+            <li class="fragment fade-in"><a href="https://github.com/sindresorhus/awesome-nodejs">https://github.com/sindresorhus/awesome-nodejs</a></li>
+            <li class="fragment fade-in"><a href="https://github.com/Microsoft/nodejs-guidelines">https://github.com/Microsoft/nodejs-guidelines</a></li>
+            <li class="fragment fade-in"><a href="https://developer.ibm.com/node/">https://developer.ibm.com/node/</a></li>
           </ul>
         </section>
 
@@ -138,16 +147,17 @@
         
         <section>
           <h2>Events and Callbacks</h2>
-        </section>
+<pre><code data-trim>
+// Client side jquery
+$('a').on('click', function(event) {
+  console.log('hello world');
+});
 
-        <section>
-          <h2>The Community</h2>
-          <ul>
-            <li class="fragment fade-in">Should be top of the list.</li>
-            <li class="fragment fade-in"><a href="https://github.com/sindresorhus/awesome-nodejs">https://github.com/sindresorhus/awesome-nodejs</a></li>
-            <li class="fragment fade-in"><a href="https://github.com/Microsoft/nodejs-guidelines">https://github.com/Microsoft/nodejs-guidelines</a></li>
-            <li class="fragment fade-in"><a href="https://developer.ibm.com/node/">https://developer.ibm.com/node/</a></li>
-          </ul>
+// Server side expressjs
+app.get('/', function(req, res) {
+  console.log('hellow world');
+});
+</code></pre>
         </section>
 
         <section>
@@ -167,7 +177,7 @@
         <section>
           <h2>Code sharing</h2>
           <ul>
-            <li class="fragment fade-in">Server and Client</li>
+            <li class="fragment fade-in">Server and Client can share code.</li>
             <li class="fragment fade-in">Module system</li>
             <li class="fragment fade-in"><img class="nostyle" style="margin-bottom: -10px" width="100" src="images/npm-logo.svg" alt="npm" /></li>
           </ul>
