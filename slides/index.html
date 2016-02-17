@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Why Node.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+          <style>
+            ul.horizontal-tabs {
+              list-style: none;
+              background-color: #F3F3F3;
+              padding: 0 5px;
+              margin-bottom: 75px;
+            }
+            .horizontal-tabs li {
+              color: #5A5A5A;
+              font-size: 0.7em;
+              float: left;
+              padding: 10px;
+            }
+            .horizontal-tabs li.selected {
+              box-shadow: inset 2px 0px 25px -2px #1A1A1A;
+              border-left: 1px solid #999;
+              border-right: 1px solid #999;
+              border-top: 1px solid #5A5A5A;
+              border-bottom: 1px solid #5A5A5A;
+            }
+            li.no-list-style {
+              margin-top: 50px !important;
+              list-style: none;
+            }
+            .ident1 {
+              color: #4892F6 !important;
+            }
+            .ident2 {
+              color: #ED4C3D !important;
+            }
+            .ident3 {
+              color: #FAC304 !important;
+            }
+            .ident4 {
+              color: #3BB15D !important;
+            }
+            img.watermark {
+               position: absolute;
+               bottom: 25px;
+               left: 25px;
+            }
+          </style>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <style>
+      .reveal section img.nostyle {
+        background: none;
+        border: none;
+        box-shadow: none;
+        margin: 0;
+      }
+      .reveal section img.roundup {
+        border: 2px solid #fff;
+        height: 40px;
+        width: 40px;
+        border-radius: 23px;
+        display: block;
+        margin: -15px auto 0;
+      }
+    </style>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <img class="watermark" src="images/earthling_logo.png" alt="earthling"/>
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>Why <img class="nostyle" alt="chrome devtools" src="images/node-logo.svg" width="400" style="margin-bottom: -29px; margin-left: 20px;" />?</h1>
+          <p>
+            <small>
+              Josh Thomas / <a href="http://twitter.com/jthoms1">@jthoms1</a>
+              <img style="display: inline-block; width: 40px; margin-top: -4px; margin-left: 5px"
+                class="nostyle"
+                alt="jthoms1"
+                src="images/twitter-logo.png"
+              />
+            </small>
+            <img class="roundup" src="images/jthoms1-logo.png" alt="archer" />
+          </p>
+        </section>
+
+        <section>
+          <h2>What is Node.js?</h2>
+          <p class="fragment fade-in">Node.js is an open source project designed to help
+          you write JavaScript programs that talk to networks, file systems or other I/O
+          (input/output, reading/writing) sources.</p>
+        </section>
+
+        <section>
+          <h2>What is Node.js?</h2>
+          <img style="background-color: #FFF" alt="node diagram" src="images/server-diagram.png" />
+          <blockquote>The Art of Node, Max Ogden</blockquote>
+        </section>
+
+        <section>
+          <h2>What is it not?</h2>
+          <ul>
+            <li class="fragment fade-in">It is not a web framework like Rails, Django or Laravel</li>
+            <li class="fragment fade-in">It is not a language like Ruby, Python or PHP</li>
+            <li class="fragment fade-in">It is not going to save the world<br/><br/></li>
+            <li class="fragment fade-in">
+              It is fun and interesting <span class="fragment fade-in">(not the David Jolly type)</span>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>What makes it interesting?</h2>
+          <ul>
+            <li class="fragment fade-in">You already know JavaScript</li>
+            <li class="fragment fade-in">Sharing code is core</li>
+            <li class="fragment fade-in">The Community</li>
+            <li class="fragment fade-in">Tooling</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>You know Javascript</h2>
+          <ul>
+            <li class="fragment fade-in">Cross platform</li>
+            <li class="fragment fade-in">JSON</li>
+            <li class="fragment fade-in">Same language but instead of Browser APIs you have other tools</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Code sharing</h2>
+          <ul>
+            <li class="fragment fade-in">Server and Client</li>
+            <li class="fragment fade-in">Module system</li>
+            <li class="fragment fade-in"><img class="nostyle" style="margin-bottom: -10px" width="100" src="images/npm-logo.svg" alt="npm" /></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Code sharing example</h2>
+        </section>
+
+
+        <section>
+          <h2>The Community</h2>
+          <ul>
+            <li class="fragment fade-in">Should be top of the list.</li>
+            <li class="fragment fade-in">https://github.com/sindresorhus/awesome-nodejs</li>
+            <li class="fragment fade-in">https://github.com/Microsoft/nodejs-guidelines</li>
+            <li class="fragment fade-in">https://developer.ibm.com/node/</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Tooling</h2>
+          <ul>
+            <li class="fragment fade-in"><a href="http://expressjs.com">Express</a></li>
+            <li class="fragment fade-in">Database tools</li>
+            <li class="fragment fade-in">REPL</li>
+            <li class="fragment fade-in"><a href="http://electron.atom.io/">Electron</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>When to avoid Node?</h2>
+          <ul>
+            <li class="fragment fade-in">CPU intensive work</li>
+            <li class="fragment fade-in">When shared hosting is a must</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Questions?</h2>
+          <br/>
+          <ul>
+            <li><a href="https://github.com/maxogden/art-of-node">
+              https://github.com/maxogden/art-of-node
+            </a></li>
+            <li><a href="http://discover-devtools.codeschool.com/">
+              http://discover-devtools.codeschool.com/
+            </a></li>
+            <li><a href="https://developers.google.com/web/tools/chrome-devtools/">
+              https://developers.google.com/web/tools/chrome-devtools/
+            </a></li>
+            <li><a href="https://developers.google.com/web/updates/chrome-devtools/">
+              https://developers.google.com/web/updates/chrome-devtools/
+            </a></li>
+            <li><a href="https://medium.com/jotform-form-builder/how-to-use-chrome-devtools-like-a-pro-b9bd414870e3">
+              https://medium.com/jotform-form-builder/how-to-use-chrome-devtools-like-a-pro-b9bd414870e3
+            </a></li>
+          </ul>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

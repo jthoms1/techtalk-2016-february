@@ -1,0 +1,24 @@
+{
+  "name": "techtalk-2016-february",
+  "version": "1.0.0",
+  "description": "Earthling Interactive february tech talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jthoms1/techtalk-2016-february.git"
+  },
+  "author": "Josh Thomas <jthoms1@gmail.com> (http://github.com/jthoms1)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jthoms1/techtalk-2016-february/issues"
+  },
+  "homepage": "https://github.com/jthoms1/techtalk-2016-february#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.13.4",
+    "moment": "^2.11.2"
+  }
+}
